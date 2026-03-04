@@ -1,4 +1,4 @@
-ename: "Seplos MQTT RS485 Add-on"
+name: "Seplos 19200 Addon"
 description: "Read Seplos V2/V16 BMS data via RS485 and publish it to HA via MQTT"
 version: "1.0.0-beta4"
 slug: "seplos_mqtt_rs485_add-on"
