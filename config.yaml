@@ -23,7 +23,7 @@ panel_icon: "mdi:battery"
 options:
   rs485_remote_ip: ""
   rs485_remote_port: 4196
-  serial_interface: "/tmp/vcom0"
+  serial_interface: "/dev/ttyUSB1"
   number_of_packs: 1
   min_cell_voltage: 2.5
   max_cell_voltage: 3.65
