@@ -17,6 +17,7 @@ export INVERT_HA_DIS_CHARGE_MEASUREMENTS=$(bashio::config 'invert_ha_dis_charge_
 export HA_DISCOVERY_PREFIX=$(bashio::config 'ha_discovery_prefix')
 export LOGGING_LEVEL=$(bashio::config 'logging_level')
 export MQTT_TOPIC=$(bashio::config 'mqtt_topic')
+export FORCE_BAUDRATE=$(bashio::config 'force_baudrate')
 
 # MQTT-Konfiguration aus Home Assistant Services
 if bashio::services.available "mqtt"; then
